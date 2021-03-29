@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<test name="Verify Results Test case">
+		<classes>
+			<class name="Tests.VerifyResultsTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Auto-complete Test case">
+		<classes>
+			<class name="Tests.AutocompleteTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Auto-correct Test Case">
+		<classes>
+			<class name="Tests.VerifyAutocorrectTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Calculator Test Case">
+		<classes>
+			<class name="Tests.VerifyCalculatorTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Case Sesitivity Test Case">
+		<classes>
+			<class name="Tests.VerifyCaseSensetivityTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Clear Button Test Case">
+		<classes>
+			<class name="Tests.VerifyClearButtonTest" />
+		</classes>
+	</test>
+
+	<test name="Verify Enter Button Test Case ">
+		<classes>
+			<class name="Tests.VerifyEnterButtonTest" />
+		</classes>
+	</test>
+
+	<test name="Google search test 8">
+		<classes>
+			<class name="Tests.VerifyLanguageTest" />
+		</classes>
+	</test>
+
+	<test name="Google search test 9">
+		<classes>
+			<class name="Tests.VerifyNoMatchingResultsTest" />
+		</classes>
+	</test>
+
+	<test name="Google search test 10">
+		<classes>
+			<class name="Tests.VerifyTotalSearchNumberTest" />
+		</classes>
+	</test>
+</suite>

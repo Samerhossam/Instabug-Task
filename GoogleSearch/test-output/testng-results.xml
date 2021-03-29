@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-29T19:48:53 EET" name="Suite1" finished-at="2021-03-29T19:51:49 EET" duration-ms="175108">
+    <groups>
+    </groups>
+    <test started-at="2021-03-29T19:48:53 EET" name="Google search test 1" finished-at="2021-03-29T19:49:16 EET" duration-ms="22410">
+      <class name="Tests.VerifyResultsTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyResultsTest@4de4b452]" started-at="2021-03-29T19:48:53 EET" name="StartDriver" finished-at="2021-03-29T19:49:06 EET" duration-ms="12268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifySearchResults()[pri:0, instance:Tests.VerifyResultsTest@4de4b452]" started-at="2021-03-29T19:49:06 EET" name="VerifySearchResults" finished-at="2021-03-29T19:49:14 EET" duration-ms="8436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchResults -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyResultsTest@4de4b452]" started-at="2021-03-29T19:49:14 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:49:14 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySearchResults status=SUCCESS method=VerifyResultsTest.VerifySearchResults()[pri:0, instance:Tests.VerifyResultsTest@4de4b452] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyResultsTest@4de4b452]" started-at="2021-03-29T19:49:14 EET" name="StopDriver" finished-at="2021-03-29T19:49:16 EET" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyResultsTest -->
+    </test> <!-- Google search test 1 -->
+    <test started-at="2021-03-29T19:49:16 EET" name="Google search test 2" finished-at="2021-03-29T19:49:26 EET" duration-ms="10002">
+      <class name="Tests.AutocompleteTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.AutocompleteTest@6da21078]" started-at="2021-03-29T19:49:16 EET" name="StartDriver" finished-at="2021-03-29T19:49:24 EET" duration-ms="7277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="AutocompleteSuggestion()[pri:0, instance:Tests.AutocompleteTest@6da21078]" started-at="2021-03-29T19:49:24 EET" name="AutocompleteSuggestion" finished-at="2021-03-29T19:49:26 EET" duration-ms="1977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutocompleteSuggestion -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AutocompleteTest@6da21078]" started-at="2021-03-29T19:49:26 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:49:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AutocompleteSuggestion status=SUCCESS method=AutocompleteTest.AutocompleteSuggestion()[pri:0, instance:Tests.AutocompleteTest@6da21078] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.AutocompleteTest@6da21078]" started-at="2021-03-29T19:49:26 EET" name="StopDriver" finished-at="2021-03-29T19:49:26 EET" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.AutocompleteTest -->
+    </test> <!-- Google search test 2 -->
+    <test started-at="2021-03-29T19:49:26 EET" name="Google search test 3" finished-at="2021-03-29T19:49:38 EET" duration-ms="11701">
+      <class name="Tests.VerifyAutocorrectTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyAutocorrectTest@169e6180]" started-at="2021-03-29T19:49:26 EET" name="StartDriver" finished-at="2021-03-29T19:49:34 EET" duration-ms="7563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyAutocorrect()[pri:0, instance:Tests.VerifyAutocorrectTest@169e6180]" started-at="2021-03-29T19:49:34 EET" name="VerifyAutocorrect" finished-at="2021-03-29T19:49:37 EET" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAutocorrect -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyAutocorrectTest@169e6180]" started-at="2021-03-29T19:49:37 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:49:37 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAutocorrect status=SUCCESS method=VerifyAutocorrectTest.VerifyAutocorrect()[pri:0, instance:Tests.VerifyAutocorrectTest@169e6180] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyAutocorrectTest@169e6180]" started-at="2021-03-29T19:49:37 EET" name="StopDriver" finished-at="2021-03-29T19:49:38 EET" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyAutocorrectTest -->
+    </test> <!-- Google search test 3 -->
+    <test started-at="2021-03-29T19:49:38 EET" name="Google search test 4" finished-at="2021-03-29T19:49:53 EET" duration-ms="15227">
+      <class name="Tests.VerifyCalculatorTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyCalculatorTest@3f6b0be5]" started-at="2021-03-29T19:49:38 EET" name="StartDriver" finished-at="2021-03-29T19:49:47 EET" duration-ms="8604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyCalculatorResults()[pri:0, instance:Tests.VerifyCalculatorTest@3f6b0be5]" started-at="2021-03-29T19:49:47 EET" name="VerifyCalculatorResults" finished-at="2021-03-29T19:49:52 EET" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCalculatorResults -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyCalculatorTest@3f6b0be5]" started-at="2021-03-29T19:49:52 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:49:52 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCalculatorResults status=SUCCESS method=VerifyCalculatorTest.VerifyCalculatorResults()[pri:0, instance:Tests.VerifyCalculatorTest@3f6b0be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyCalculatorTest@3f6b0be5]" started-at="2021-03-29T19:49:52 EET" name="StopDriver" finished-at="2021-03-29T19:49:53 EET" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyCalculatorTest -->
+    </test> <!-- Google search test 4 -->
+    <test started-at="2021-03-29T19:49:53 EET" name="Google search test 5" finished-at="2021-03-29T19:50:14 EET" duration-ms="20964">
+      <class name="Tests.VerifyCaseSensetivityTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyCaseSensetivityTest@5acf93bb]" started-at="2021-03-29T19:49:53 EET" name="StartDriver" finished-at="2021-03-29T19:50:03 EET" duration-ms="9538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyCaseSensetivity()[pri:0, instance:Tests.VerifyCaseSensetivityTest@5acf93bb]" started-at="2021-03-29T19:50:03 EET" name="VerifyCaseSensetivity" finished-at="2021-03-29T19:50:13 EET" duration-ms="10388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCaseSensetivity -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyCaseSensetivityTest@5acf93bb]" started-at="2021-03-29T19:50:13 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:50:13 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCaseSensetivity status=SUCCESS method=VerifyCaseSensetivityTest.VerifyCaseSensetivity()[pri:0, instance:Tests.VerifyCaseSensetivityTest@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyCaseSensetivityTest@5acf93bb]" started-at="2021-03-29T19:50:13 EET" name="StopDriver" finished-at="2021-03-29T19:50:14 EET" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyCaseSensetivityTest -->
+    </test> <!-- Google search test 5 -->
+    <test started-at="2021-03-29T19:50:14 EET" name="Google search test 6" finished-at="2021-03-29T19:50:25 EET" duration-ms="10893">
+      <class name="Tests.VerifyClearButtonTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyClearButtonTest@1af2d44a]" started-at="2021-03-29T19:50:14 EET" name="StartDriver" finished-at="2021-03-29T19:50:23 EET" duration-ms="9041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyClearButton()[pri:0, instance:Tests.VerifyClearButtonTest@1af2d44a]" started-at="2021-03-29T19:50:23 EET" name="VerifyClearButton" finished-at="2021-03-29T19:50:24 EET" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClearButton -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyClearButtonTest@1af2d44a]" started-at="2021-03-29T19:50:24 EET" name="StopDriver" finished-at="2021-03-29T19:50:25 EET" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyClearButtonTest@1af2d44a]" started-at="2021-03-29T19:50:24 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:50:24 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyClearButton status=SUCCESS method=VerifyClearButtonTest.VerifyClearButton()[pri:0, instance:Tests.VerifyClearButtonTest@1af2d44a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+      </class> <!-- Tests.VerifyClearButtonTest -->
+    </test> <!-- Google search test 6 -->
+    <test started-at="2021-03-29T19:50:25 EET" name="Google search test 7" finished-at="2021-03-29T19:50:42 EET" duration-ms="16594">
+      <class name="Tests.VerifyEnterButtonTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyEnterButtonTest@5d7148e2]" started-at="2021-03-29T19:50:25 EET" name="StartDriver" finished-at="2021-03-29T19:50:32 EET" duration-ms="7278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifySearchByEnterButton()[pri:0, instance:Tests.VerifyEnterButtonTest@5d7148e2]" started-at="2021-03-29T19:50:32 EET" name="VerifySearchByEnterButton" finished-at="2021-03-29T19:50:40 EET" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchByEnterButton -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyEnterButtonTest@5d7148e2]" started-at="2021-03-29T19:50:40 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:50:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySearchByEnterButton status=SUCCESS method=VerifyEnterButtonTest.VerifySearchByEnterButton()[pri:0, instance:Tests.VerifyEnterButtonTest@5d7148e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyEnterButtonTest@5d7148e2]" started-at="2021-03-29T19:50:40 EET" name="StopDriver" finished-at="2021-03-29T19:50:42 EET" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyEnterButtonTest -->
+    </test> <!-- Google search test 7 -->
+    <test started-at="2021-03-29T19:50:42 EET" name="Google search test 8" finished-at="2021-03-29T19:51:08 EET" duration-ms="26166">
+      <class name="Tests.VerifyLanguageTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyLanguageTest@4f2b503c]" started-at="2021-03-29T19:50:42 EET" name="StartDriver" finished-at="2021-03-29T19:50:59 EET" duration-ms="17642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyLanguage()[pri:0, instance:Tests.VerifyLanguageTest@4f2b503c]" started-at="2021-03-29T19:50:59 EET" name="VerifyLanguage" finished-at="2021-03-29T19:51:07 EET" duration-ms="7274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLanguage -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyLanguageTest@4f2b503c]" started-at="2021-03-29T19:51:07 EET" name="StopDriver" finished-at="2021-03-29T19:51:08 EET" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyLanguageTest@4f2b503c]" started-at="2021-03-29T19:51:07 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:51:07 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLanguage status=SUCCESS method=VerifyLanguageTest.VerifyLanguage()[pri:0, instance:Tests.VerifyLanguageTest@4f2b503c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+      </class> <!-- Tests.VerifyLanguageTest -->
+    </test> <!-- Google search test 8 -->
+    <test started-at="2021-03-29T19:51:08 EET" name="Google search test 9" finished-at="2021-03-29T19:51:23 EET" duration-ms="15405">
+      <class name="Tests.VerifyNoMatchingResultsTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyNoMatchingResultsTest@d5b810e]" started-at="2021-03-29T19:51:08 EET" name="StartDriver" finished-at="2021-03-29T19:51:18 EET" duration-ms="10096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyNoMathcingResults()[pri:0, instance:Tests.VerifyNoMatchingResultsTest@d5b810e]" started-at="2021-03-29T19:51:18 EET" name="VerifyNoMathcingResults" finished-at="2021-03-29T19:51:22 EET" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNoMathcingResults -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyNoMatchingResultsTest@d5b810e]" started-at="2021-03-29T19:51:22 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:51:22 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyNoMathcingResults status=SUCCESS method=VerifyNoMatchingResultsTest.VerifyNoMathcingResults()[pri:0, instance:Tests.VerifyNoMatchingResultsTest@d5b810e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyNoMatchingResultsTest@d5b810e]" started-at="2021-03-29T19:51:22 EET" name="StopDriver" finished-at="2021-03-29T19:51:23 EET" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyNoMatchingResultsTest -->
+    </test> <!-- Google search test 9 -->
+    <test started-at="2021-03-29T19:51:23 EET" name="Google search test 10" finished-at="2021-03-29T19:51:49 EET" duration-ms="25256">
+      <class name="Tests.VerifyTotalSearchNumberTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:Tests.VerifyTotalSearchNumberTest@54bff557]" started-at="2021-03-29T19:51:23 EET" name="StartDriver" finished-at="2021-03-29T19:51:43 EET" duration-ms="19786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="VerifyTotalSearchNumber()[pri:0, instance:Tests.VerifyTotalSearchNumberTest@54bff557]" started-at="2021-03-29T19:51:43 EET" name="VerifyTotalSearchNumber" finished-at="2021-03-29T19:51:47 EET" duration-ms="4258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalSearchNumber -->
+        <test-method is-config="true" signature="TakeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.VerifyTotalSearchNumberTest@54bff557]" started-at="2021-03-29T19:51:47 EET" name="TakeScreenshotOnFailure" finished-at="2021-03-29T19:51:47 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTotalSearchNumber status=SUCCESS method=VerifyTotalSearchNumberTest.VerifyTotalSearchNumber()[pri:0, instance:Tests.VerifyTotalSearchNumberTest@54bff557] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.VerifyTotalSearchNumberTest@54bff557]" started-at="2021-03-29T19:51:47 EET" name="StopDriver" finished-at="2021-03-29T19:51:49 EET" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.VerifyTotalSearchNumberTest -->
+    </test> <!-- Google search test 10 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

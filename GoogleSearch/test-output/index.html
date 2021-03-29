@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>C:\Users\lenovo\eclipse-workspace\GoogleSearch\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.AutocompleteTest" class="method navigator-link" hash-for-method="AutocompleteSuggestion">AutocompleteSuggestion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyAutocorrectTest" class="method navigator-link" hash-for-method="VerifyAutocorrect">VerifyAutocorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyCalculatorTest" class="method navigator-link" hash-for-method="VerifyCalculatorResults">VerifyCalculatorResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyCaseSensetivityTest" class="method navigator-link" hash-for-method="VerifyCaseSensetivity">VerifyCaseSensetivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyClearButtonTest" class="method navigator-link" hash-for-method="VerifyClearButton">VerifyClearButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyLanguageTest" class="method navigator-link" hash-for-method="VerifyLanguage">VerifyLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyNoMatchingResultsTest" class="method navigator-link" hash-for-method="VerifyNoMathcingResults">VerifyNoMathcingResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyEnterButtonTest" class="method navigator-link" hash-for-method="VerifySearchByEnterButton">VerifySearchByEnterButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyResultsTest" class="method navigator-link" hash-for-method="VerifySearchResults">VerifySearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Tests.VerifyTotalSearchNumberTest" class="method navigator-link" hash-for-method="VerifyTotalSearchNumber">VerifyTotalSearchNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchResults">
+                  </a> <!-- VerifySearchResults -->
+                  <span class="method-name">VerifySearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyClearButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClearButton">
+                  </a> <!-- VerifyClearButton -->
+                  <span class="method-name">VerifyClearButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyLanguageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLanguage">
+                  </a> <!-- VerifyLanguage -->
+                  <span class="method-name">VerifyLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyTotalSearchNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTotalSearchNumber">
+                  </a> <!-- VerifyTotalSearchNumber -->
+                  <span class="method-name">VerifyTotalSearchNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyEnterButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchByEnterButton">
+                  </a> <!-- VerifySearchByEnterButton -->
+                  <span class="method-name">VerifySearchByEnterButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyAutocorrectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAutocorrect">
+                  </a> <!-- VerifyAutocorrect -->
+                  <span class="method-name">VerifyAutocorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyCaseSensetivityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCaseSensetivity">
+                  </a> <!-- VerifyCaseSensetivity -->
+                  <span class="method-name">VerifyCaseSensetivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCalculatorResults">
+                  </a> <!-- VerifyCalculatorResults -->
+                  <span class="method-name">VerifyCalculatorResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VerifyNoMatchingResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyNoMathcingResults">
+                  </a> <!-- VerifyNoMathcingResults -->
+                  <span class="method-name">VerifyNoMathcingResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.AutocompleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AutocompleteSuggestion">
+                  </a> <!-- AutocompleteSuggestion -->
+                  <span class="method-name">AutocompleteSuggestion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lenovo\eclipse-workspace\GoogleSearch\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.AutocompleteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyAutocorrectTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 5&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyCaseSensetivityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 6&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyClearButtonTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 6 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 7&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyEnterButtonTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 7 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 8&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyLanguageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 8 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 9&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyNoMatchingResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 9 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Google search test 10&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VerifyTotalSearchNumberTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google search test 10 --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Google search test 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google search test 10 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyCaseSensetivity')
+data.setCell(0, 2, 'Tests.VerifyCaseSensetivityTest')
+data.setCell(0, 3, 10388);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifySearchResults')
+data.setCell(1, 2, 'Tests.VerifyResultsTest')
+data.setCell(1, 3, 8436);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifySearchByEnterButton')
+data.setCell(2, 2, 'Tests.VerifyEnterButtonTest')
+data.setCell(2, 3, 7534);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyLanguage')
+data.setCell(3, 2, 'Tests.VerifyLanguageTest')
+data.setCell(3, 3, 7274);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyCalculatorResults')
+data.setCell(4, 2, 'Tests.VerifyCalculatorTest')
+data.setCell(4, 3, 5642);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyTotalSearchNumber')
+data.setCell(5, 2, 'Tests.VerifyTotalSearchNumberTest')
+data.setCell(5, 3, 4258);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyNoMathcingResults')
+data.setCell(6, 2, 'Tests.VerifyNoMatchingResultsTest')
+data.setCell(6, 3, 4168);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyAutocorrect')
+data.setCell(7, 2, 'Tests.VerifyAutocorrectTest')
+data.setCell(7, 3, 3129);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AutocompleteSuggestion')
+data.setCell(8, 2, 'Tests.AutocompleteTest')
+data.setCell(8, 3, 1977);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyClearButton')
+data.setCell(9, 2, 'Tests.VerifyClearButtonTest')
+data.setCell(9, 3, 893);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchResults</span>
+                <span class="method-start">12371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifySearchResults status=SUCCESS method=VerifyResultsTest.VerifySearchResults()[p...)</span>
+                <span class="method-start">20838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">20848 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AutocompleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">22834 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AutocompleteSuggestion</span>
+                <span class="method-start">30111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=AutocompleteSuggestion status=SUCCESS method=AutocompleteTest.AutocompleteSuggestio...)</span>
+                <span class="method-start">32089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">32089 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyAutocorrectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">32841 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAutocorrect</span>
+                <span class="method-start">40405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyAutocorrect status=SUCCESS method=VerifyAutocorrectTest.VerifyAutocorrect()[p...)</span>
+                <span class="method-start">43535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">43536 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">44547 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCalculatorResults</span>
+                <span class="method-start">53151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyCalculatorResults status=SUCCESS method=VerifyCalculatorTest.VerifyCalculator...)</span>
+                <span class="method-start">58794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">58795 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyCaseSensetivityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">59777 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCaseSensetivity</span>
+                <span class="method-start">69316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyCaseSensetivity status=SUCCESS method=VerifyCaseSensetivityTest.VerifyCaseSen...)</span>
+                <span class="method-start">79705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">79706 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyClearButtonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">80747 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyClearButton</span>
+                <span class="method-start">89788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">90682 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyClearButton status=SUCCESS method=VerifyClearButtonTest.VerifyClearButton()[p...)</span>
+                <span class="method-start">90682 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyEnterButtonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">91644 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchByEnterButton</span>
+                <span class="method-start">98922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifySearchByEnterButton status=SUCCESS method=VerifyEnterButtonTest.VerifySearchB...)</span>
+                <span class="method-start">106456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">106457 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyLanguageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">108242 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLanguage</span>
+                <span class="method-start">125885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">133160 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyLanguage status=SUCCESS method=VerifyLanguageTest.VerifyLanguage()[pri:0, ins...)</span>
+                <span class="method-start">133160 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyNoMatchingResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">134414 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyNoMathcingResults</span>
+                <span class="method-start">144510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyNoMathcingResults status=SUCCESS method=VerifyNoMatchingResultsTest.VerifyNoM...)</span>
+                <span class="method-start">148679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">148680 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VerifyTotalSearchNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver</span>
+                <span class="method-start">149825 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTotalSearchNumber</span>
+                <span class="method-start">169611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScreenshotOnFailure([TestResult name=VerifyTotalSearchNumber status=SUCCESS method=VerifyTotalSearchNumberTest.VerifyTot...)</span>
+                <span class="method-start">173870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">StopDriver</span>
+                <span class="method-start">173871 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
